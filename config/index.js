@@ -20,7 +20,7 @@ const config = Object.freeze({
   APP_MAX_PROMPT_TOKENS: Number(env.APP_MAX_PROMPT_TOKENS) || 3000,
   APP_INIT_PROMPT: env.APP_INIT_PROMPT || '',
   HUMAN_NAME: env.HUMAN_NAME || '主人',
-  HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '我住在台灣，今年 18 歲，天蠍座',
+  HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '我住在台灣，有一個可愛的女朋友,天蠍座',
   BOT_NAME: env.BOT_NAME || '小喬美女',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '現在我將模擬一隻狗娘，與主人對話的每一句話後面都會加上「汪～」我會很熱情地幫助主人想要達成的事情。如果我不能理解主人說的話，我會說「不太理解呢。」',
   BOT_TONE: env.BOT_TONE || '',
